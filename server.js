@@ -22,15 +22,16 @@ const ENABLE_THINKING_MODE = true; // Set to true to enable chat_template_kwargs
 
 // Model mapping (adjust based on available NIM models)
 const MODEL_MAPPING = {
-  'gpt-3.5-turbo': 'nvidia/llama-3.1-nemotron-ultra-253b-v1',
-  'gpt-4': 'qwen/qwen3-coder-480b-a35b-instruct',
-  'gpt-4-turbo': 'moonshotai/kimi-k2-instruct-0905',
+  'llama-3.1-nemotron': 'nvidia/llama-3.1-nemotron-ultra-253b-v1',
+  'qwen3-480b': 'qwen/qwen3-coder-480b-a35b-instruct',
+  'kimi-k2': 'moonshotai/kimi-k2-instruct-0905',
   'gpt-4o': 'deepseek-ai/deepseek-r1',
-  'claude-3-opus': 'openai/gpt-oss-120b',
-  'claude-3-sonnet': 'openai/gpt-oss-20b',
+  'gpt-120b': 'openai/gpt-oss-120b',
+  'gpt-20b': 'openai/gpt-oss-20b',
   'gemini-pro': 'qwen/qwen3-next-80b-a3b-thinking',
   'deepseek-rp': 'qwen/qwen3-coder-480b-a35b-instruct', // Qwen хорош для RP
-  'deepseek-r1-full': 'deepseek/deepseek-r1',
+  'deepseek-r1': 'deepseek-ai/deepseek-r1',               // DeepSeek R1 — мощный reasoning
+  
 };
 
 // Health check endpoint
