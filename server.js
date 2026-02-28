@@ -30,7 +30,15 @@ const MODEL_MAPPING = {
   'gpt-20b': 'openai/gpt-oss-20b',
   'gemini-pro': 'qwen/qwen3-next-80b-a3b-thinking',
   'deepseek-rp': 'qwen/qwen3-coder-480b-a35b-instruct', // Qwen хорош для RP
-  'deepseek-r1': 'deepseek-ai/deepseek-r1',               // DeepSeek R1 — мощный reasoning
+  'rp-fast': 'meta/llama-3.3-70b-instruct',           // Llama 3.3 70B — быстрый, живой диалог
+  'rp-flash': 'mistralai/mistral-large-2-instruct',    // Mistral Large — хорош для тёмных тем
+  'gpt-4o-mini': 'nvidia/llama-3.1-nemotron-nano-8b-v1',
+  'claude-3-haiku': 'nvidia/llama-3.1-nemotron-nano-8b-v1',
+  'claude-3-5-sonnet': 'meta/llama-3.3-70b-instruct',
+  'gemini-flash': 'meta/llama-3.3-70b-instruct',
+  'gemini-2-flash': 'qwen/qwen3-next-80b-a3b-thinking',
+  'o1-mini': 'qwen/qwen3-next-80b-a3b-thinking',
+  'o3': 'deepseek-ai/deepseek-r1',
   
 };
 
